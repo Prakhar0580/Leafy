@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif&display=swap');
+body{
+    background-color:blanchedalmond ;
+}
+nav{
+    font-family: Noto Serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    background-color:black;
+    display:flex;
+    list-style-type: none;
+    color:whitesmoke;
+    align-items: center;
+    height:60px;
+}
+.alpha img{
+    height:70px;
+    width:70px;
+}
+.alpha span{
+   padding-left : 5px;
+}
+.alpha{
+    display:flex;
+    align-items:center;
+    font-weight:bold;
+    font-size:1.5rem;
+}
+ul li+li{
+    padding-left: 39px;/*here by using ul li+li means both the li items that comes just after the first li items will have same type of operations*/
+}
+.container{
+    min-height:75vh;
+    margin:30px 150px;
+    color:white;
+    padding-left:30px;
+    padding-top:20px;
+    background-image: url("D:/spotify clone/images/BG.jpg");
+    background-size:cover;
+}
+.songItems{
+    margin:20px 0px;
+    width:28%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:  Noto Serif;
+    height:40px;
+    color:black;
+    background-image:linear-gradient(to right,lightgreen,white);
+    border-radius: 20px;
+}
+.songItems img{
+    height:30px;
+    width:30px;
+    border-radius:10px;
+    padding-left: 5px;
+}
+.songItems span{
+    padding-left:20px;
+    font-family: Noto Serif ;
+    font-weight: bolder;
+    font-size: large;
+}
+.songItems i{
+    cursor: pointer;
+}
+.bottom{
+    position:sticky;
+    background-color:black;
+    height:90px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.songInfo{
+    position:relative;
+    left:0px;
+    width:5px;
+    height:10px;
+}
+#myProgressBar{
+    width:70%;
+}
+#range{
+    width:50vw;
+    margin:10px;
+}
